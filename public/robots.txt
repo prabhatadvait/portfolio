@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prabhatadvait.vercel.app/sitemap.xml
