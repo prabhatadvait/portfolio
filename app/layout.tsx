@@ -14,16 +14,14 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prabhat Kumar | AI/ML Engineer & Full Stack Developer",
+  title: "Prabhat Kumar | Technical Intern at Rakuten",
   description:
-    "Portfolio of Prabhat Kumar - AI/ML Engineer, Full Stack Developer, and DevOps enthusiast. Building scalable AI-driven applications with LLMs, React, FastAPI, and Docker.",
+    "Portfolio of Prabhat Kumar - Technical Intern at Rakuten, Full Stack Developer, and DevOps enthusiast. Building scalable applications with React, FastAPI, and Docker.",
   keywords: [
     "Prabhat Kumar",
-    "AI Engineer",
-    "ML Engineer",
+    "Technical Intern",
+    "Rakuten",
     "Full Stack Developer",
-    "LLM",
-    "RAG",
     "FastAPI",
     "React",
     "DevOps",
@@ -31,9 +29,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Prabhat Kumar" }],
   openGraph: {
-    title: "Prabhat Kumar | AI/ML Engineer & Full Stack Developer",
+    title: "Prabhat Kumar | Technical Intern at Rakuten",
     description:
-      "Building scalable AI-driven applications with LLMs, React, FastAPI, and Docker.",
+      "Building scalable applications with React, FastAPI, and Docker.",
     url: "https://prabhatadvait.vercel.app",
     siteName: "Prabhat Kumar Portfolio",
     locale: "en_US",
@@ -49,9 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Prabhat Kumar | AI/ML Engineer & Full Stack Developer",
+    title: "Prabhat Kumar | Technical Intern at Rakuten",
     description:
-      "Building scalable AI-driven applications with LLMs, React, FastAPI, and Docker.",
+      "Building scalable applications with React, FastAPI, and Docker.",
   },
   robots: {
     index: true,

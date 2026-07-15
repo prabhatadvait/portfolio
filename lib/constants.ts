@@ -1,6 +1,6 @@
 export const PERSONAL_INFO = {
   name: "Prabhat Kumar",
-  title: "AI/ML Engineer & Full Stack Developer",
+  title: "Technical Intern at Rakuten",
   email: "prabhatsharma84226@gmail.com",
   phone: "+91 7667123709",
   location: "Bengaluru, India",
@@ -10,14 +10,13 @@ export const PERSONAL_INFO = {
   hackerrank: "prabhatsharma841",
   dockerhub: "prabhat076",
   cgpa: "9.4",
-  bio: `AI engineer at Rakuten India, building LLM-powered automation, RAG pipelines and full-stack tools in production. Research published at an international Springer conference in Singapore.`,
-  longBio: `I work on production AI systems at Rakuten India — LLM automation, RAG pipelines, vector search and full-stack engineering. I graduated in Computer Science (Data Science) from RN Shetty Institute of Technology under VTU with a 9.4 CGPA. My work spans the full stack: from training and fine-tuning language models to shipping them behind FastAPI services with Docker and CI/CD. I also build React and Next.js frontends and automate infrastructure with shell scripting and Kubernetes.`,
-  heroTagline: "I build AI systems that go from research into production.",
+  bio: `Technical Intern at Rakuten India, building automation pipelines and full-stack tools in production. Co-authored an IEEE paper, published at Springer, and filed a patent.`,
+  longBio: `I am a Technical Intern at Rakuten India, working on automation pipelines, intelligent extraction systems, and full-stack engineering. I am pursuing my B.E. in Computer Science (Data Science) from RN Shetty Institute of Technology with a 9.4 CGPA. My work involves building data processing systems, FastAPI services with Docker, and developing React and Next.js frontends.`,
+  heroTagline: "I build robust systems that go from research into production.",
   roles: [
-    "AI/ML Engineer",
+    "Technical Intern",
     "Full Stack Developer",
     "DevOps Enthusiast",
-    "LLM Specialist",
   ],
 };
 
@@ -62,7 +61,7 @@ export const NAV_LINKS = [
 
 export const EXPERIENCE = [
   {
-    title: "AI/ML Engineering Intern",
+    title: "Technical Intern",
     company: "Rakuten India",
     location: "Bengaluru, India",
     period: "Jan 2026 – Present",
@@ -179,6 +178,20 @@ export const PROJECT_CATEGORIES: Record<string, string> = {
 };
 
 export const PUBLICATIONS = [
+  {
+    title: "DOM Aware Chunking and RAG-based CSS Selector Extraction (Patent Filed)",
+    venue: "Patent Application No: 2026-154381",
+    publisher: "Pending",
+    location: "India",
+    date: "Jul 2026",
+  },
+  {
+    title: "RAG-Based CSS Selector and Value Extraction from E-Commerce Pages Using DOM-Aware Chunking",
+    venue: "IEEE Format (Under Review)",
+    publisher: "Rakuten India",
+    location: "India",
+    date: "2026",
+  },
   {
     title: "Real-Time Gesture Recognition for Numeric Drawing and Calculation",
     venue:
