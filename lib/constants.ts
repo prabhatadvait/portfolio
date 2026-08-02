@@ -61,11 +61,11 @@ export const NAV_LINKS = [
 
 export const EXPERIENCE = [
   {
-    title: "Associate Software Engineer",
+    title: "Technical Intern",
     company: "Rakuten India",
     location: "Bengaluru, India",
-    period: "Jan 2026 – Present",
-    type: "Employment",
+    period: "Jan 2026 – Jun 2026",
+    type: "Internship",
     highlights: [
       "Engineered production-grade RAG pipelines using embeddings, vector search and reranking, improving retrieval precision for Rakuten's enterprise knowledge bases",
       "Developed LLM-powered automation workflows that process large-scale structured and unstructured data for Rakuten's internal tooling",
