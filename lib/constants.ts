@@ -1,6 +1,6 @@
 export const PERSONAL_INFO = {
   name: "Prabhat Kumar",
-  title: "Technical Intern at Rakuten",
+  title: "Associate Software Engineer at Rakuten",
   email: "prabhatsharma84226@gmail.com",
   phone: "+91 7667123709",
   location: "Bengaluru, India",
@@ -10,11 +10,11 @@ export const PERSONAL_INFO = {
   hackerrank: "prabhatsharma841",
   dockerhub: "prabhat076",
   cgpa: "9.4",
-  bio: `Technical Intern at Rakuten India, building automation pipelines and full-stack tools in production. Co-authored an IEEE paper, published at Springer, and filed a patent.`,
-  longBio: `I am a Technical Intern at Rakuten India, working on automation pipelines, intelligent extraction systems, and full-stack engineering. I am pursuing my B.E. in Computer Science (Data Science) from RN Shetty Institute of Technology with a 9.4 CGPA. My work involves building data processing systems, FastAPI services with Docker, and developing React and Next.js frontends.`,
+  bio: `Associate Software Engineer at Rakuten India, building automation pipelines and full-stack tools in production. Co-authored an IEEE paper, published at Springer, and filed a patent.`,
+  longBio: `I am an Associate Software Engineer at Rakuten India, working on automation pipelines, intelligent extraction systems, and full-stack engineering. I am pursuing my B.E. in Computer Science (Data Science) from RN Shetty Institute of Technology with a 9.4 CGPA. My work involves building data processing systems, FastAPI services with Docker, and developing React and Next.js frontends.`,
   heroTagline: "I build robust systems that go from research into production.",
   roles: [
-    "Technical Intern",
+    "Associate Software Engineer",
     "Full Stack Developer",
     "DevOps Enthusiast",
   ],
@@ -61,11 +61,11 @@ export const NAV_LINKS = [
 
 export const EXPERIENCE = [
   {
-    title: "Technical Intern",
+    title: "Associate Software Engineer",
     company: "Rakuten India",
     location: "Bengaluru, India",
     period: "Jan 2026 – Present",
-    type: "Internship",
+    type: "Employment",
     highlights: [
       "Engineered production-grade RAG pipelines using embeddings, vector search and reranking, improving retrieval precision for Rakuten's enterprise knowledge bases",
       "Developed LLM-powered automation workflows that process large-scale structured and unstructured data for Rakuten's internal tooling",

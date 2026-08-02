@@ -14,12 +14,12 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prabhat Kumar | Technical Intern at Rakuten",
+  title: "Prabhat Kumar | Associate Software Engineer at Rakuten",
   description:
-    "Portfolio of Prabhat Kumar - Technical Intern at Rakuten, Full Stack Developer, and DevOps enthusiast. Building scalable applications with React, FastAPI, and Docker.",
+    "Portfolio of Prabhat Kumar - Associate Software Engineer at Rakuten, Full Stack Developer, and DevOps enthusiast. Building scalable applications with React, FastAPI, and Docker.",
   keywords: [
     "Prabhat Kumar",
-    "Technical Intern",
+    "Associate Software Engineer",
     "Rakuten",
     "Full Stack Developer",
     "FastAPI",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Prabhat Kumar" }],
   openGraph: {
-    title: "Prabhat Kumar | Technical Intern at Rakuten",
+    title: "Prabhat Kumar | Associate Software Engineer at Rakuten",
     description:
       "Building scalable applications with React, FastAPI, and Docker.",
     url: "https://prabhatadvait.vercel.app",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Prabhat Kumar | Technical Intern at Rakuten",
+    title: "Prabhat Kumar | Associate Software Engineer at Rakuten",
     description:
       "Building scalable applications with React, FastAPI, and Docker.",
   },
