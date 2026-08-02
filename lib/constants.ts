@@ -54,6 +54,7 @@ export const NAV_LINKS = [
   { name: "Experience",   href: "#experience"   },
   { name: "Skills",       href: "#skills"       },
   { name: "Projects",     href: "#projects"     },
+  { name: "Blog",         href: "#blog"         },
   { name: "LeetCode",     href: "#leetcode"     },
   { name: "Achievements", href: "#achievements" },
   { name: "Contact",      href: "#contact"      },

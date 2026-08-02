@@ -3,6 +3,7 @@ import About from "@/components/about/About";
 import Experience from "@/components/experience/Experience";
 import Skills from "@/components/skills/Skills";
 import Projects from "@/components/projects/Projects";
+import Blog from "@/components/blog/Blog";
 import LeetcodeStats from "@/components/leetcode/LeetcodeStats";
 import Publications from "@/components/publications/Publications";
 import Education from "@/components/education/Education";
@@ -18,6 +19,7 @@ import {
   fetchLeetCodeStats,
   FALLBACK_LEETCODE_STATS,
 } from "@/lib/leetcode";
+import { fetchSubstackPosts, type BlogPost } from "@/lib/substack";
 
 export const revalidate = 3600;
 
@@ -27,12 +29,14 @@ export default async function Home() {
   let followers = 209;
   let repos: GitHubRepo[] = [];
   let leetcodeStats = FALLBACK_LEETCODE_STATS;
+  let blogPosts: BlogPost[] = [];
 
   try {
-    const [profile, githubRepos, stats] = await Promise.all([
+    const [profile, githubRepos, stats, posts] = await Promise.all([
       fetchGitHubProfile(),
       fetchGitHubRepos(),
       fetchLeetCodeStats(),
+      fetchSubstackPosts(4),
     ]);
 
     avatarUrl = profile.avatar_url;
@@ -40,6 +44,7 @@ export default async function Home() {
     followers = profile.followers;
     repos = githubRepos;
     if (stats) leetcodeStats = stats;
+    blogPosts = posts;
   } catch {
     // Use fallback values
   }
@@ -57,6 +62,7 @@ export default async function Home() {
       <Experience />
       <Skills />
       <Projects repos={repos} />
+      <Blog posts={blogPosts} />
       <LeetcodeStats stats={leetcodeStats} />
       <Publications />
       <Education />
