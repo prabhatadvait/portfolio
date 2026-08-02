@@ -61,6 +61,19 @@ export const NAV_LINKS = [
 
 export const EXPERIENCE = [
   {
+    title: "Associate Software Engineer",
+    company: "Rakuten India",
+    location: "Bengaluru, India",
+    period: "Jul 2026 – Present",
+    type: "Employment",
+    highlights: [
+      "Owning production RAG and LLM workflows for enterprise use cases, with focus on reliability, observability, and measurable business impact",
+      "Designing and scaling full-stack internal platforms using React, TypeScript, FastAPI, and Docker for automation-heavy teams",
+      "Improving model response quality and latency through retrieval tuning, prompt optimisation, and evaluation-driven iteration",
+      "Collaborating across engineering and product stakeholders to ship AI-enabled features from prototype to production",
+    ],
+  },
+  {
     title: "Technical Intern",
     company: "Rakuten India",
     location: "Bengaluru, India",
